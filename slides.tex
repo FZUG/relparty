@@ -192,14 +192,97 @@ breaklinks=false,
         \item Base OS considered boring
         \item Not just us: Debian, Ubuntu, openSUSE all \alert{no
           longer cool}
-        \item ``Is distribution-level package management obsolete?''
       \end{itemize}
+  \end{itemize}
+  \begin{beamercolorbox}[center,ht=2ex,dp=0.5ex,rounded=true]{block body}
+    {\centering ``Is distribution-level package management
+    obsolete?''}
+  \end{beamercolorbox}
+\end{frame}
+
+\begin{frame}{Fedora's Mission}
+  \begin{beamercolorbox}[center,ht=4ex,dp=0.5ex,rounded=true]{block body}
+    {\centering The Fedora Project's mission is to lead the advancement of free and
+  open source software and content as a collaborative community.}
+  \end{beamercolorbox}
+\end{frame}
+
+\begin{frame}{Fedora.next}
+  \begin{itemize}
+    \item Additive
+    \item Incremental improvement
+    \item Planning, direction-setting
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Fedora Rings Model}
+  \begin{columns}
+    \begin{column}{.5\textwidth}
+  \begin{itemize}
+    \item Central Core: Base Design
+    \item Ring 2: Environments \& Stacks
+    \item Ring 3: Applications
+  \end{itemize}
+    \end{column}
+    \begin{column}{.5\textwidth}
+      \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=.8\textwidth]{fedora-next-ring.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Fedora Products Proposal}
+  \begin{itemize}
+    \item Fedora Workstation
+    \item Fedora Server
+    \item Fedora Cloud
   \end{itemize}
 \end{frame}
 
 \section{Ongoing Work}
 
-\begin{frame}{PRD}
+\begin{frame}{Governance}
+  \begin{itemize}
+    \item Working groups:
+      \begin{itemize}
+        \item One each for the products
+        \item One for Base Design
+        \item One for Environments \& Stacks
+      \end{itemize}
+    \item Each working group: a group of voting members
+    \item FESCO, Design, QA, etc still there
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Product Requirements Document}
+  \begin{itemize}
+    \item Fedora Workstation
+      \begin{itemize}
+        \item Target: students, developers
+        \item Robust Upgrades, Encapsulation of development
+          environments, unifying the Linux desktop
+      \end{itemize}
+    \item Fedora Server
+      \begin{itemize}
+        \item User: system administrators
+        \item Scale: single server, IaaS platform
+      \end{itemize}
+    \item Fedora Cloud
+      \begin{itemize}
+        \item Base images on various cloud platform
+        \item Automatic deployment, Docker integration
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Fedora 21}
+  \begin{itemize}
+    \item SCL: Ruby 1.9.3 with Rails 3.2.8
+    \item Fedora Playground: COPR
+    \item Wayland
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{You Can Contribute!}
@@ -207,8 +290,8 @@ breaklinks=false,
     \item Spread the message
     \item Join the discussion
       \begin{itemize}
-        \item Mailing list (chinese, fudcon-planning)
-        \item IRC (\#fedora-zh, \#fudcon-planning)
+        \item Mailing list
+        \item IRC
       \end{itemize}
     \item Design, Code, Document, Translate, etc.
     \item Fedora Join SIG
