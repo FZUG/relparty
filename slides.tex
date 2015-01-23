@@ -222,8 +222,8 @@ breaklinks=false,
   \begin{columns}
     \begin{column}{.5\textwidth}
   \begin{itemize}
-    \item Ring 0: Core
-    \item Ring 1: Base Platform
+    \item Ring 0: Minimal Core
+    \item Ring 1: Common Base Platform
     \item Ring 2: Environments \& Stacks
     \item Ring 3: Applications
   \end{itemize}
@@ -237,13 +237,27 @@ breaklinks=false,
   \end{columns}
 \end{frame}
 
-%\begin{frame}{Fedora Products Proposal}
-%  \begin{itemize}
-%    \item Fedora Workstation
-%    \item Fedora Server
-%    \item Fedora Cloud
-%  \end{itemize}
-%\end{frame}
+\begin{frame}{Fedora Products Proposal}
+  \begin{itemize}
+    \item Fedora Workstation
+      \begin{itemize}
+        \item Target: students, developers
+        \item Robust Upgrades, Encapsulation of development
+          environments, unifying the Linux desktop
+      \end{itemize}
+    \item Fedora Server
+      \begin{itemize}
+        \item User: system administrators
+        \item Scale: single server, IaaS platform
+      \end{itemize}
+    \item Fedora Cloud
+      \begin{itemize}
+        \item Base images on various cloud platform
+        \item Automatic deployment, Docker integration
+      \end{itemize}
+  \end{itemize}
+  \end{itemize}
+\end{frame}
 
 \section{What's new in Fedora 21}
 \include{f21}
